@@ -8,7 +8,6 @@ import Button from "../components/styled-components/Button";
 import fb_logo from "../assets/fb_logo.webp";
 import SignUp from "../components/Signup-form";
 
-
 const Login = () => {
   const [signUpModal, setSignUpModal] = useState(false);
   const [formData, setFormData] = useState({
